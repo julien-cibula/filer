@@ -1,0 +1,54 @@
+﻿		<pre contenteditable="true" id="rewrite-pre">		<pre contenteditable="true" id="rewrite-pre">		
+<pre contenteditable="true" id="rewrite-pre">		
+<pre contenteditable="true" id="rewrite-pre">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	dddddddddddxzdzxsxqvu,y;iyh;,
+dzdzdzdzdzdzz
+<script type="text/javascript">
+	function display (num){
+		$("#contenu-1").hide();
+		$("#contenu-2").hide();
+		$("#contenu-3").hide();
+		$("#contenu-4").hide();
+		$("#contenu-".num).show();
+
+	}
+</script>
+
+</html>
+
+<script type="text/javascript">
+	function display(t) {
+		if t == 1 {
+			$("#contenu-1").show().addclass("sel");
+			$("#title-1").addclass("sel");
+		}else{
+			$("#contenu-1").hide().removeclass("sel");
+			$("#title-1").removeclass("sel");
+		}
+		if t == 2 {
+			$("#contenu-2").show().addclass("sel");
+			$("#title-2").addclass("sel");
+		}else{
+			$("#contenu-2").hide().removeclass("sel");
+			$("#title-2").removeclass("sel");
+		}
+		if t == 3 {
+			$("#contenu-3").show().addclass("sel");
+			$("#title-3").addclass("sel");
+		}else{
+			$("#contenu-3").hide().removeclass("sel");
+			$("#title-3").removeclass("sel");
+		}
+		if t == 4 {
+			$("#contenu-4").show().addclass("sel");
+			$("#title-4").addclass("sel");
+		}else{
+			$("#contenu-4").hide().removeclass("sel");
+			$("#title-4").removeclass("sel");
+		}
+
+	}
+	display(1);
+</script>
+________________________________________________________________________
